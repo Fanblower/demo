@@ -1,0 +1,199 @@
+body {
+  font-family: "Minion Pro"; }
+
+ul {
+  list-style: none; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center; }
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0; }
+
+hr {
+  width: 101px;
+  height: 1px;
+  background-color: #2a2a2a;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+button {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f25448;
+  padding: 13px 57px;
+  border: none;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px; }
+
+.header__line {
+  width: 100%;
+  height: 6px;
+  background: #f57f76; }
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto; }
+
+.collection__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px; }
+
+.collection__preview {
+  width: 495px;
+  height: 743px;
+  border: 1px solid #858585; }
+
+.collection__info {
+  padding-left: 63px; }
+  .collection__info ul {
+    margin-top: 23px;
+    padding: 0; }
+  .collection__info li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 46px;
+    margin-right: 150px; }
+    .collection__info li p {
+      margin: 15px 9px 0px 9px;
+      text-transform: uppercase;
+      font-family: "Open Sans";
+      font-size: 15px;
+      letter-spacing: 0.9px; }
+  .collection__info .gray {
+    background-color: #e8e8e8; }
+  .collection__info .red p {
+    color: #f25448;
+    font-weight: 700; }
+
+.collection__note {
+  border: 5px solid #e8e8e8; }
+  .collection__note p {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 26px 34px; }
+
+.collection__buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 21px; }
+  .collection__buttons .add__cart {
+    background-color: #13b0c3; }
+
+.Product__Photos {
+  padding-top: 154px; }
+  .Product__Photos .line__1, .Product__Photos .line__2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 40px; }
+    .Product__Photos .line__1 img, .Product__Photos .line__2 img {
+      margin: 38px 0 61px 61px;
+      border: 2px solid #858585; }
+  .Product__Photos .see__all {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.Video__review {
+  padding-top: 154px; }
+  .Video__review img {
+    margin-top: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.other__offers {
+  padding-top: 154px; }
+
+.offers__review {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .offers__review figure {
+    background-image: url(../img/photo_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 251px;
+    background-color: #d2d2d2;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    text-align: center; }
+    .offers__review figure p {
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+      color: #ffffff;
+      font-family: "Museo Sans Cyrl -100";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 25px;
+      text-transform: uppercase;
+      margin: 61px 80px 0 80px;
+      visibility: hidden; }
+    .offers__review figure button {
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+      margin-top: 48px;
+      visibility: hidden; }
+    .offers__review figure:hover {
+      opacity: 0.9;
+      background-color: #898989; }
+      .offers__review figure:hover button {
+        visibility: visible; }
+      .offers__review figure:hover p {
+        visibility: visible; }
